@@ -25,10 +25,10 @@ class SearchStudent implements ActionListener{
         l5.setIcon(img);
 
 
-        l=new JLabel("Student ID");
+        l=new JLabel("Student ID:");
         l.setVisible(true);
         l.setBounds(40,50,250,30);
-        l.setForeground(Color.white);
+        l.setForeground(Color.black);
         Font F1=new Font("serif",Font.BOLD,25);
         l.setFont(F1); 
         l5.add(l);

@@ -27,10 +27,10 @@ class View_Student implements ActionListener{
         l1.setIcon(img);
 
 
-        l2=new JLabel("Employee ID");
+        l2=new JLabel("Student ID:");
         l2.setVisible(true);
         l2.setBounds(40,60,250,30);
-        l2.setForeground(Color.white);
+        l2.setForeground(Color.black);
         Font F1 = new Font("serif",Font.BOLD,30);
         l2.setFont(F1); 
         l1.add(l2);
